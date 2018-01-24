@@ -12,4 +12,4 @@ def mostraMaiorNome(listaDeNomes):
             qntCaracteres = len(listaDeNomes[i])
             maiorNome = listaDeNomes[i]
 
-    print("O maior nome é " + nome + " e possui " + str(qntCaracteres) + " caracteres")
+    print("O maior nome é " + maiorNome + " e possui " + str(qntCaracteres) + " caracteres")

@@ -5,4 +5,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import contaCaracteres
 
 nome = "Danilo Mello"
-contaCaracteres.contarCaracteres(nome)
+contaCaracteres.qntLetrasNome(nome)
+
+nomes = ["Danilo Mello", "João Silva", "Mariana Tester"]
+contaCaracteres.mostraMaiorNome(nomes)
